@@ -16,10 +16,8 @@ class Song
     # @@all << song
     song.save
     song
-    end
-    def self.new_by_name(name)
-
-
-    end
-
+  end
+  def self.new_by_name(name)
+    self.name = []
+  end
 end
