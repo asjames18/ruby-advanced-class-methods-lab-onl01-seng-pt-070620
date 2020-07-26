@@ -16,7 +16,8 @@ class Song
     @@all << song
     song
     end
-    def new_by_name
+    def self.new_by_name
+      Blank Space = song.new
 
     end
 
