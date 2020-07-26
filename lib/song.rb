@@ -29,10 +29,8 @@ class Song
     song
   end
   def self.find_by_name(name)
-    song = self.find_by_name
-    song.name = name
-    song.save
-
+    @@all.each do |song|
+      self.find_by
     song
   end
 end
