@@ -11,10 +11,7 @@ class Song
   end
 
   def self.create
-    s = Song.new
-    s.name = "The Ship Song"
-    s.artist_name = "Nick Cave"
-    s.save
+    
     end
 
 end
