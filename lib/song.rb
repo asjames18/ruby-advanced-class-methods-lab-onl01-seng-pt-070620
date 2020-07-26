@@ -32,6 +32,6 @@ class Song
     @@all.each do |song|
     If song.name == name
     song
-    song
+  end
   end
 end
