@@ -63,7 +63,7 @@ def self.create_from_filename(name)
 end
 
 def self.destroy_all()
-  self.clear
+  @@all.clear
 end
 
 def self.find_or_create_by_name(name)
