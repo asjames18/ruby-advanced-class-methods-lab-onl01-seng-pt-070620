@@ -55,5 +55,6 @@ def self.create
   @@all << song
 song
 end
+def self.create_from_filename
 
 end
