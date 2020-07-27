@@ -54,7 +54,7 @@ def self.create
   song = self.new
   @@all << song
   song.save
-
+song
 end
 
 end
