@@ -62,12 +62,12 @@ def self.create_from_filename(name)
   song
 end
 
-def self.destroy_all
+def self.destroy_all()
+  self.clear
 end
 
 def self.find_or_create_by_name(name)
   self.find_by_name(name) || self.create_by_name(name)
 
 end
-nil
 end
