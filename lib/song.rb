@@ -61,5 +61,6 @@ def self.create_from_filename(name)
   song.artist_name = x[0].strip
   song
 end
+end
 
 end
