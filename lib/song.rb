@@ -65,4 +65,7 @@ end
 def self.destroy_all
 end
 
+def self.find_or_create_by_name
+end
+
 end
