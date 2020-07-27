@@ -49,6 +49,7 @@ def self.new_from_filename(name)
   song = self.create_by_name(x[1].strip)
   song.artist_name = x[0].strip
   song
-  binding.pry
 end
+
+
 end
