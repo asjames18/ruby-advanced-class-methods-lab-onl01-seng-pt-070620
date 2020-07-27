@@ -50,6 +50,10 @@ def self.new_from_filename(name)
   song.artist_name = x[0].strip
   song
 end
+def self.create
+  song = self.new
+  @@all << song
 
+end
 
 end
